@@ -43,3 +43,32 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification
 * MaskRCNN
 
 ![HPA4](HPA4.jpg)
+
+## Second Attempt
+* Use only single label images.
+* Using CellSegmentator we can focus on each cell, and train a classifier with known labels.
+* Resnet50
+* Resize to 1024x1024 pixels
+* ImageNet normalization
+* Metrics: accuracy, precision
+* Loss: Initially cross entropy
+* Second model, for each image:
+   + Use cell segmentator to create a mask
+   + Calculate bounding boxes using OpenCV
+   + Cut out, pad to square, and resize each box
+   + Get slide predictions using the first model
+   + Keep only highly confidence classes
+   + Automate for parallel run
+   + Problem: Cell Segmentation Does Not Scale
+   + Solution: using Cellpose, adding flow considerations to solve watershed algorithm multi basin problem. https://www.cellpose.org/
+
+## Class Imbalance
+* Data augmentation
+* github.com/albumentations-team
+* Class weight
+* Focal Loss
+  + https://arxiv.org/abs/1708.02002
+* Multi label stratified K-fold
+  + https://github.com/trent-b/iterative-stratification
+* More data
+  + 82495 images from HPA
