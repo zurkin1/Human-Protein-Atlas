@@ -72,3 +72,8 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification
   + https://github.com/trent-b/iterative-stratification
 * More data
   + 82495 images from HPA
+
+## More Optimizations
+* Class activation maps for confidence.
+* GRAD-CAM
+* Puzzle-CAM, https://arxiv.org/abs/2101.11253.
