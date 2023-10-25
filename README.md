@@ -26,6 +26,8 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification
    + Image ID: 5c27f04c-bb99-11e8-b2b9-ac1f6b6435d0, labels: 8|5|0
    + Iamge ID: 5fb643ee-bb99-11e8-b2b9-ac1f6b6435d0, labels: 14|0
 
+![labels](HPA2.jpg)
+
 ## Evaluation Metric
 * mAP: Mean (over classes) of Average Precision for object detection
 * Average Precision (AP): the area under the precision-recall curve
