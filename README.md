@@ -1,6 +1,7 @@
 # Human-Protein-Atlas
 
 ![HPA](HPA.jpg)
+![HPA3](HPA3.jpg)
 https://www.kaggle.com/c/hpa-single-cell-image-classification
 
 ## Why is This Challenge Hard?
