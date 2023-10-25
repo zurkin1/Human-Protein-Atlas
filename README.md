@@ -42,3 +42,4 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification
 * Black box approach using pipelines
 * MaskRCNN
 
+![HPA4](HPA4.jpg)
