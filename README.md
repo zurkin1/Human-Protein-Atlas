@@ -1,7 +1,7 @@
 # Human-Protein-Atlas
 
-![HPA](HPA.jpg)
-![HPA3](HPA3.jpg)
+![HPA](data/HPA.jpg)
+![HPA3](data/HPA3.jpg)
 https://www.kaggle.com/c/hpa-single-cell-image-classification
 
 ## Why is This Challenge Hard?
@@ -27,7 +27,7 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification
    + Image ID: 5c27f04c-bb99-11e8-b2b9-ac1f6b6435d0, labels: 8|5|0
    + Iamge ID: 5fb643ee-bb99-11e8-b2b9-ac1f6b6435d0, labels: 14|0
 
-![labels](HPA2.jpg)
+![labels](data/HPA2.jpg)
 
 ## Evaluation Metric
 * mAP: Mean (over classes) of Average Precision for object detection
@@ -42,7 +42,7 @@ https://www.kaggle.com/c/hpa-single-cell-image-classification
 * Black box approach using pipelines
 * MaskRCNN
 
-![HPA4](HPA4.jpg)
+![HPA4](data/HPA4.jpg)
 
 ## Second Attempt
 * Use only single label images.
